@@ -1,4 +1,4 @@
-/* istanbul instrument in package my_app */
+/* istanbul instrument in package electron_onload_test */
 /*jslint
     bitwise: true,
     browser: true,

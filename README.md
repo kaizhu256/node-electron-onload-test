@@ -38,7 +38,7 @@ the greatest app in the world!
 
 
 # cdn download
-- [https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.my_app.js](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.my_app.js)
+- [https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.electron_onload_test.js](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.electron_onload_test.js)
 
 
 
@@ -111,7 +111,7 @@ instruction
 
 
 
-/* istanbul instrument in package my_app */
+/* istanbul instrument in package electron_onload_test */
 /*jslint
     bitwise: true,
     browser: true,
@@ -152,7 +152,7 @@ instruction
             : global;
         // init utility2_rollup
         local = local.global.utility2_rollup || (local.modeJs === 'browser'
-            ? local.global.utility2_my_app
+            ? local.global.utility2_electron_onload_test
             : require('electron-onload-test'));
         // init exports
         local.global.local = local;
@@ -383,7 +383,7 @@ utility2-comment -->\n\
 <script src="assets.utility2.rollup.js"></script>\n\
 <script>window.utility2.onResetBefore.counter += 1;</script>\n\
 <script src="jsonp.utility2.stateInit?callback=window.utility2.stateInit"></script>\n\
-<script src="assets.my_app.js"></script>\n\
+<script src="assets.electron_onload_test.js"></script>\n\
 <script src="assets.example.js"></script>\n\
 <script src="assets.test.js"></script>\n\
 <script>window.utility2.onResetBefore();</script>\n\
@@ -426,7 +426,7 @@ utility2-comment -->\n\
                 case 'npm_package_name':
                     return 'electron-onload-test';
                 case 'npm_package_nameAlias':
-                    return 'my_app';
+                    return 'electron_onload_test';
                 case 'npm_package_version':
                     return '0.0.1';
                 default:
@@ -442,10 +442,10 @@ utility2-comment -->\n\
             local.fs.readFileSync(__filename, 'utf8');
         // bug-workaround - long $npm_package_buildCustomOrg
         /* jslint-ignore-begin */
-        local.assetsDict['/assets.my_app.js'] =
-            local.assetsDict['/assets.my_app.js'] ||
+        local.assetsDict['/assets.electron_onload_test.js'] =
+            local.assetsDict['/assets.electron_onload_test.js'] ||
             local.fs.readFileSync(
-                local.my_app.__dirname + '/lib.my_app.js',
+                local.electron_onload_test.__dirname + '/lib.electron_onload_test.js',
                 'utf8'
             ).replace((/^#!/), '//');
         /* jslint-ignore-end */
@@ -540,9 +540,9 @@ utility2-comment -->\n\
     "homepage": "https://github.com/kaizhu256/node-electron-onload-test",
     "keywords": [],
     "license": "MIT",
-    "main": "lib.my_app.js",
+    "main": "lib.electron_onload_test.js",
     "name": "electron-onload-test",
-    "nameAlias": "my_app",
+    "nameAlias": "electron_onload_test",
     "nameOriginal": "electron-onload-test",
     "os": [
         "darwin",

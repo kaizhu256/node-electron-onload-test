@@ -11,9 +11,9 @@
     "homepage": "https://github.com/kaizhu256/node-electron-onload-test",
     "keywords": [],
     "license": "MIT",
-    "main": "lib.my_app.js",
+    "main": "lib.electron_onload_test.js",
     "name": "electron-onload-test",
-    "nameAlias": "my_app",
+    "nameAlias": "electron_onload_test",
     "nameOriginal": "electron-onload-test",
     "os": [
         "darwin",
