@@ -580,12 +580,12 @@ utility2-comment -->\n\
 
 shBuildCiAfter() {(set -e
     shDeployGithub
-    shDeployHeroku
+    # shDeployHeroku
     shReadmeTest example.sh
 )}
 
 shBuildCiBefore() {(set -e
-    shNpmTestPublished
+    # shNpmTestPublished
     shReadmeTest example.js
 )}
 
