@@ -1,12 +1,12 @@
 /*
-electron.onload.test.js
+lib.electron_onload_test.js
 
 this function will test the onload performance of the given url
 
 # example usage 1:
 mkdir -p node_modules
 npm install electron-lite --electron-version=v1.1.1
-url=https://www.google.com node_modules/.bin/electron electron.onload.test.js
+url=https://www.google.com node_modules/.bin/electron lib.electron_onload_test.js
 
 
 
@@ -55,7 +55,7 @@ do
     do
         for ii in 1 2 3 4 5 6 7 8 9 10
         do
-            (url="$uu" node_modules/.bin/electron electron.onload.test.js 2>&1 | \
+            (url="$uu" node_modules/.bin/electron lib.electron_onload_test.js 2>&1 | \
                 tee -a "$HOME/electron.log") &
             for ii in \
                  1  2  3  4  5  6  7  8  9 10 \
