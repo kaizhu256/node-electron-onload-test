@@ -103,6 +103,9 @@ done
         });
         return;
     }
+    if (!process.versions.electron) {
+        return;
+    }
     // npm install electron-lite
     if (!require('fs').existsSync('node_modules/electron-lite') ||
             process.env.npm_config_electron_version) {

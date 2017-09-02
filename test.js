@@ -59,7 +59,7 @@
 
     // run shared js-env code - function
     (function () {
-        return;
+        local.buildLib = local.nop;
     }());
     switch (local.modeJs) {
 
@@ -106,7 +106,7 @@
              */
                 // jslint-hack
                 local.nop(url);
-                return local.env.npm_package_nameAlias && location.host.match(/\bgithub.io$/)
+                return local.env.npm_package_nameAlias && (/\bgithub.io$/).test(location.host)
                     ? 'https://h1-' + local.env.npm_package_nameAlias + '-alpha.herokuapp.com'
                     : location.protocol + '//' + location.host;
             };

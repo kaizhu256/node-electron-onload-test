@@ -434,7 +434,7 @@ utility2-comment -->\n\
                 }
             });
         // run the cli
-        if (local.global.utility2_rollup || module !== require.main) {
+        if (module !== require.main || local.global.utility2_rollup) {
             break;
         }
         local.assetsDict['/assets.example.js'] =
