@@ -1,25 +1,25 @@
-# my-app
+# electron-onload-test
 the greatest app in the world!
 
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app)
 
-[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-my-app.svg)](https://travis-ci.org/kaizhu256/node-my-app) [![coverage](https://kaizhu256.github.io/node-my-app/build/coverage.badge.svg)](https://kaizhu256.github.io/node-my-app/build/coverage.html/index.html)
+[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-electron-onload-test.svg)](https://travis-ci.org/kaizhu256/node-electron-onload-test) [![coverage](https://kaizhu256.github.io/node-electron-onload-test/build/coverage.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build/coverage.html/index.html)
 
-[![NPM](https://nodei.co/npm/my-app.png?downloads=true)](https://www.npmjs.com/package/my-app)
+[![NPM](https://nodei.co/npm/electron-onload-test.png?downloads=true)](https://www.npmjs.com/package/electron-onload-test)
 
-[![build commit status](https://kaizhu256.github.io/node-my-app/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-my-app)
+[![build commit status](https://kaizhu256.github.io/node-electron-onload-test/build/build.badge.svg)](https://travis-ci.org/kaizhu256/node-electron-onload-test)
 
-| git-branch : | [master](https://github.com/kaizhu256/node-my-app/tree/master) | [beta](https://github.com/kaizhu256/node-my-app/tree/beta) | [alpha](https://github.com/kaizhu256/node-my-app/tree/alpha)|
+| git-branch : | [master](https://github.com/kaizhu256/node-electron-onload-test/tree/master) | [beta](https://github.com/kaizhu256/node-electron-onload-test/tree/beta) | [alpha](https://github.com/kaizhu256/node-electron-onload-test/tree/alpha)|
 |--:|:--|:--|:--|
-| test-server-github : | [![github.com test-server](https://kaizhu256.github.io/node-my-app/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-my-app/build..master..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-my-app/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-my-app/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-my-app/build..alpha..travis-ci.org/app)|
-| test-server-heroku : | [![heroku.com test-server](https://kaizhu256.github.io/node-my-app/heroku-logo.75x25.png)](https://h1-my-app-master.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-my-app/heroku-logo.75x25.png)](https://h1-my-app-beta.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-my-app/heroku-logo.75x25.png)](https://h1-my-app-alpha.herokuapp.com)|
-| test-report : | [![test-report](https://kaizhu256.github.io/node-my-app/build..master..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-my-app/build..master..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-my-app/build..alpha..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-my-app/build..alpha..travis-ci.org/test-report.html)|
-| coverage : | [![coverage](https://kaizhu256.github.io/node-my-app/build..master..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-my-app/build..master..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-my-app/build..alpha..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-my-app/build..alpha..travis-ci.org/coverage.html/index.html)|
-| build-artifacts : | [![build-artifacts](https://kaizhu256.github.io/node-my-app/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-my-app/tree/gh-pages/build..master..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-my-app/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-my-app/tree/gh-pages/build..beta..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-my-app/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-my-app/tree/gh-pages/build..alpha..travis-ci.org)|
+| test-server-github : | [![github.com test-server](https://kaizhu256.github.io/node-electron-onload-test/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-electron-onload-test/build..master..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-electron-onload-test/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app) | [![github.com test-server](https://kaizhu256.github.io/node-electron-onload-test/GitHub-Mark-32px.png)](https://kaizhu256.github.io/node-electron-onload-test/build..alpha..travis-ci.org/app)|
+| test-server-heroku : | [![heroku.com test-server](https://kaizhu256.github.io/node-electron-onload-test/heroku-logo.75x25.png)](https://h1-electron-onload-test-master.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-electron-onload-test/heroku-logo.75x25.png)](https://h1-electron-onload-test-beta.herokuapp.com) | [![heroku.com test-server](https://kaizhu256.github.io/node-electron-onload-test/heroku-logo.75x25.png)](https://h1-electron-onload-test-alpha.herokuapp.com)|
+| test-report : | [![test-report](https://kaizhu256.github.io/node-electron-onload-test/build..master..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..master..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/test-report.html) | [![test-report](https://kaizhu256.github.io/node-electron-onload-test/build..alpha..travis-ci.org/test-report.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..alpha..travis-ci.org/test-report.html)|
+| coverage : | [![coverage](https://kaizhu256.github.io/node-electron-onload-test/build..master..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..master..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/coverage.html/index.html) | [![coverage](https://kaizhu256.github.io/node-electron-onload-test/build..alpha..travis-ci.org/coverage.badge.svg)](https://kaizhu256.github.io/node-electron-onload-test/build..alpha..travis-ci.org/coverage.html/index.html)|
+| build-artifacts : | [![build-artifacts](https://kaizhu256.github.io/node-electron-onload-test/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-electron-onload-test/tree/gh-pages/build..master..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-electron-onload-test/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-electron-onload-test/tree/gh-pages/build..beta..travis-ci.org) | [![build-artifacts](https://kaizhu256.github.io/node-electron-onload-test/glyphicons_144_folder_open.png)](https://github.com/kaizhu256/node-electron-onload-test/tree/gh-pages/build..alpha..travis-ci.org)|
 
-[![npmPackageListing](https://kaizhu256.github.io/node-my-app/build/screenshot.npmPackageListing.svg)](https://github.com/kaizhu256/node-my-app)
+[![npmPackageListing](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmPackageListing.svg)](https://github.com/kaizhu256/node-electron-onload-test)
 
-![npmPackageDependencyTree](https://kaizhu256.github.io/node-my-app/build/screenshot.npmPackageDependencyTree.svg)
+![npmPackageDependencyTree](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmPackageDependencyTree.svg)
 
 
 
@@ -38,22 +38,22 @@ the greatest app in the world!
 
 
 # cdn download
-- [https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app/assets.my_app.js](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app/assets.my_app.js)
+- [https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.my_app.js](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.my_app.js)
 
 
 
 # live demo
-- [https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app/](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app)
+- [https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app)
 
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app)
 
 
 
 # documentation
 #### apidoc
-- [https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/apidoc.html](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/apidoc.html)
+- [https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/apidoc.html](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/apidoc.html)
 
-[![apidoc](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/apidoc.html)
 
 #### todo
 - none
@@ -68,14 +68,14 @@ the greatest app in the world!
 
 # quickstart standalone app
 #### to run this example, follow the instruction in the script below
-- [assets.app.js](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app/assets.app.js)
+- [assets.app.js](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.app.js)
 ```shell
 # example.sh
 
-# this shell script will download and run a web demo of my-app as a standalone app
+# this shell script will download and run a web demo of electron-onload-test as a standalone app
 
 # 1. download standalone app
-curl -O https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/app/assets.app.js
+curl -O https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/app/assets.app.js
 # 2. run standalone app
 node ./assets.app.js
 # 3. open a browser to http://127.0.0.1:8081 and play with the web demo
@@ -83,28 +83,28 @@ node ./assets.app.js
 ```
 
 #### output from browser
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/app/assets.example.html)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/app/assets.example.html)
 
 #### output from shell
-![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.svg)
+![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.svg)
 
 
 
 # quickstart example.js
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/app/assets.example.html)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/app/assets.example.html)
 
 #### to run this example, follow the instruction in the script below
-- [example.js](https://kaizhu256.github.io/node-my-app/build..beta..travis-ci.org/example.js)
+- [example.js](https://kaizhu256.github.io/node-electron-onload-test/build..beta..travis-ci.org/example.js)
 ```javascript
 /*
 example.js
 
-this script will run a web demo of my-app
+this script will run a web demo of electron-onload-test
 
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install my-app && PORT=8081 node example.js
+        $ npm install electron-onload-test && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web demo
     4. edit this script to suit your needs
 */
@@ -153,7 +153,7 @@ instruction
         // init utility2_rollup
         local = local.global.utility2_rollup || (local.modeJs === 'browser'
             ? local.global.utility2_my_app
-            : require('my-app'));
+            : require('electron-onload-test'));
         // init exports
         local.global.local = local;
     }());
@@ -424,7 +424,7 @@ utility2-comment -->\n\
                 case 'npm_package_description':
                     return 'the greatest app in the world!';
                 case 'npm_package_name':
-                    return 'my-app';
+                    return 'electron-onload-test';
                 case 'npm_package_nameAlias':
                     return 'my_app';
                 case 'npm_package_version':
@@ -476,52 +476,52 @@ utility2-comment -->\n\
 ```
 
 #### output from browser
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/app/assets.example.html)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/app/assets.example.html)
 
 #### output from shell
-![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.svg)
+![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.svg)
 
 
 
 # extra screenshots
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp%252Fassets.swgg.html.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp%252Fassets.swgg.html.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp%252Fassets.swgg.html.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp%252Fassets.swgg.html.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp%252Fassets.swgg.html.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp%252Fassets.swgg.html.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp%252Fassets.swgg.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp%252Fassets.swgg.html.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithub.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithub.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithubTest.browser.%252Fnode-my-app%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithubTest.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithubTest.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployGithubTest.browser.%252Fnode-my-app%252Fbuild%252Fapp.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithubTest.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithubTest.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithubTest.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployGithubTest.browser.%252Fnode-electron-onload-test%252Fbuild%252Fapp.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252Fassets.swgg.html.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHeroku.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHeroku.browser.%252F.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.deployHerokuTest.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHerokuTest.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHerokuTest.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.deployHerokuTest.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHerokuTest.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHerokuTest.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHerokuTest.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.deployHerokuTest.browser.%252F.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.npmTest.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTest.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTest.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTest.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTest.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTest.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTest.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTest.browser.%252F.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.npmTestPublished.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTestPublished.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTestPublished.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.npmTestPublished.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTestPublished.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTestPublished.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTestPublished.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.npmTestPublished.browser.%252F.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleJs.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleJs.browser.%252F.png)
 
-1. [https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.browser.%252F.png](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.browser.%252F.png)
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.browser.%252F.png)](https://kaizhu256.github.io/node-my-app/build/screenshot.testExampleSh.browser.%252F.png)
+1. [https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.browser.%252F.png](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.browser.%252F.png)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.browser.%252F.png)](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.testExampleSh.browser.%252F.png)
 
 
 
@@ -537,20 +537,20 @@ utility2-comment -->\n\
     "engines": {
         "node": ">=4.0"
     },
-    "homepage": "https://github.com/kaizhu256/node-my-app",
+    "homepage": "https://github.com/kaizhu256/node-electron-onload-test",
     "keywords": [],
     "license": "MIT",
     "main": "lib.my_app.js",
-    "name": "my-app",
+    "name": "electron-onload-test",
     "nameAlias": "my_app",
-    "nameOriginal": "my-app",
+    "nameOriginal": "electron-onload-test",
     "os": [
         "darwin",
         "linux"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/kaizhu256/node-my-app.git"
+        "url": "https://github.com/kaizhu256/node-electron-onload-test.git"
     },
     "scripts": {
         "build-ci": "utility2 shReadmeTest build_ci.sh",
@@ -567,7 +567,7 @@ utility2-comment -->\n\
 
 
 # changelog of last 50 commits
-[![screenshot](https://kaizhu256.github.io/node-my-app/build/screenshot.gitLog.svg)](https://github.com/kaizhu256/node-my-app/commits)
+[![screenshot](https://kaizhu256.github.io/node-electron-onload-test/build/screenshot.gitLog.svg)](https://github.com/kaizhu256/node-electron-onload-test/commits)
 
 
 
