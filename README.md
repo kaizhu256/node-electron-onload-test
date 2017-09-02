@@ -255,10 +255,12 @@ instruction
     case 'node':
         // init exports
         module.exports = local;
-        // require modules
-        local.fs = require('fs');
-        local.http = require('http');
-        local.url = require('url');
+        // init builtins
+        Object.keys(process.binding('natives')).forEach(function (key) {
+            if (!local[key] && !(/^_|\/|^sys$/).test(key)) {
+                local[key] = require(key);
+            }
+        });
         // init assets
         local.assetsDict = local.assetsDict || {};
         /* jslint-ignore-begin */
