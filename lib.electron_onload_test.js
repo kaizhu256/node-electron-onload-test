@@ -45,13 +45,12 @@ do
         https://www.youtube.com \
         https://www.facebook.com \
         https://www.baidu.com \
-        https://www.wikipedia.org \
+        https://en.wikipedia.org/wiki/Main_Page \
+        https://www.google.co.in \
         https://www.yahoo.com \
         https://www.reddit.com \
-        https://www.google.co.in \
         http://www.qq.com \
-        https://www.taobao.com \
-        https://mail.google.com
+        https://world.taobao.com
     do
         for ii in 1 2 3 4 5 6 7 8 9 10
         do
