@@ -1,3 +1,8 @@
+/*jslint
+    browser: true,
+    maxlen: 100,
+    node: true
+*/
 'use strict';
 /*
         https://www.google.com \
@@ -11,8 +16,32 @@
         http://www.qq.com \
         https://world.taobao.com
  */
-var arr0 = ["0.24.0","0.25.1","0.26.1","0.27.1","0.28.1","0.29.1","0.30.1","0.31.1","0.32.1","0.33.1","0.34.1","0.35.1","0.36.1","0.37.1","1.0.1","1.1.1","1.2.1","1.3.1","1.4.1","1.5.1","1.6.1","1.7.1"]
-var dict = {};
+var arr0, dict, series;
+arr0 = [
+    "0.24.0",
+    "0.25.1",
+    "0.26.1",
+    "0.27.1",
+    "0.28.1",
+    "0.29.1",
+    "0.30.1",
+    "0.31.1",
+    "0.32.1",
+    "0.33.1",
+    "0.34.1",
+    "0.35.1",
+    "0.36.1",
+    "0.37.1",
+    "1.0.1",
+    "1.1.1",
+    "1.2.1",
+    "1.3.1",
+    "1.4.1",
+    "1.5.1",
+    "1.6.1",
+    "1.7.1"
+];
+dict = {};
 window.data.forEach(function (element) {
     dict[element.url] = dict[element.url] || [];
     dict[element.url].push({
@@ -21,7 +50,7 @@ window.data.forEach(function (element) {
         y: Number(element.onLoadTime)
     });
 });
-var series = [];
+series = [];
 Object.keys(dict).sort().forEach(function (key, ii) {
     series.push({
         data: dict[key].map(function (element) {
@@ -29,56 +58,24 @@ Object.keys(dict).sort().forEach(function (key, ii) {
                 meta: element.meta,
                 x: element.x + 0.25 + 0.05 * ii,
                 y: element.y
-            }
+            };
         }),
         marker: {
-            radius: 2,
-            //!! symbol: 'circle',
+            radius: 2
         },
-        name: key
+        name: key.split('/')[2]
     });
 });
 
-Highcharts.chart('container', {
+window.Highcharts.chart('container', {
     chart: {
         type: 'scatter',
         zoomType: 'xy'
     },
-    title: {
-        text: 'onload-time for popular websites vs v8/electron version'
-    },
-    subtitle: {
-        text: 'onload-time measured from electron startup to onload event (with 1000 ms offset)'
-    },
-    xAxis: {
-        gridLineWidth: 1,
-        tickInterval: 1,
-       labels: {
-           enabled: false
-       },
-
-        title: {
-            enabled: true,
-            text: 'v8/electron version'
-        },
-        startOnTick: true,
-        endOnTick: true,
-        showLastLabel: true
-    },
-    yAxis: {
-        tickInterval: 1000,
-        title: {
-            text: 'onload-time (ms)'
-        }
-        //!! type: 'logarithmic'
-    },
     legend: {
         layout: 'vertical',
         align: 'right',
-        //!! verticalAlign: 'center',
-        //!! floating: true,
-        //!! backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
-        //!! borderWidth: 1
+        borderWidth: 1
     },
     plotOptions: {
         scatter: {
@@ -100,7 +97,8 @@ Highcharts.chart('container', {
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br>',
-                pointFormat: 'v8 v{point.meta.v8}<br>' +
+                pointFormat: '{point.meta.url}<br>' +
+                    'v8 v{point.meta.v8}<br>' +
                     'electron v{point.meta.electron}<br>' +
                     '{point.y} ms'
                 //!! formatter: function () {
@@ -110,7 +108,33 @@ Highcharts.chart('container', {
             }
         }
     },
-    series: window.series
+    series: window.series,
+    subtitle: {
+        text: 'onload-time measured from electron startup to onload event (with 1000 ms offset)'
+    },
+    title: {
+        text: 'onload-time for popular websites vs v8/electron version'
+    },
+    xAxis: {
+        gridLineWidth: 1,
+        tickInterval: 1,
+        labels: {
+            enabled: false
+        },
+        title: {
+            enabled: true,
+            text: 'v8/electron version'
+        },
+        startOnTick: true,
+        endOnTick: true,
+        showLastLabel: true
+    },
+    yAxis: {
+        tickInterval: 1000,
+        title: {
+            text: 'onload-time (ms)'
+        }
+    }
 });
 
 
