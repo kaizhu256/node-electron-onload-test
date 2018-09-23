@@ -1,122 +1,44 @@
-# example usage 2:
-printf "" > "$HOME/electron.log"
+":" /*
+rm -f "$HOME/electron.log"
 rm -f /tmp/electron.done
 for vv in \
-    v0.24.0 \
-    v0.25.1 \
-    v0.26.1 \
-    v0.27.1 \
-    v0.28.1 \
-    v0.29.1 \
-    v0.30.1 \
-    v0.31.1 \
-    v0.32.1 \
-    v0.33.1 \
-    v0.34.1 \
-    v0.35.1 \
-    v0.36.1 \
-    v0.37.1 \
-    v1.0.1 \
-    v1.1.1 \
-    v1.2.1 \
-    v1.3.1 \
-    v1.4.1 \
-    v1.5.1 \
-    v1.6.1 \
-    v1.7.1
+    v0.24 \
+    v0.25 \
+    v0.26 \
+    v0.27 \
+    v0.28 \
+    v0.29 \
+    v0.30 \
+    v0.31 \
+    v0.32 \
+    v0.33 \
+    v0.34 \
+    v0.35 \
+    v0.36 \
+    v0.37 \
+    v1.0 \
+    v1.1 \
+    v1.2 \
+    v1.3 \
+    v1.4 \
+    v1.5 \
+    v1.6 \
+    v1.7 \
+    v1.8 \
+    v2.0 \
+    v3.0
 do
     mkdir -p node_modules
-    npm install electron-lite --electron-version="$vv"
-# https://en.wikipedia.org/wiki/List_of_most_popular_websites
-URL_LIST='
-https://www.google.com
-https://www.youtube.com
-https://www.facebook.com
-https://www.baidu.com
-https://en.wikipedia.org/wiki/Main_Page
-https://www.google.co.in
-https://www.yahoo.com
-https://www.reddit.com
-http://www.qq.com
-https://world.taobao.com
-'
-# https://www.alexa.com/topsites/category/Top/Shopping
-URL_LIST='
-https://www.amazon.com/gp/goldbox/ref=nav_cs_gb
-https://www.netflix.com/
-https://www.ebay.com/rpp/moda-en
-https://www.amazon.co.uk/gp/deals/ref=nav_cs_gb
-https://www.etsy.com/c/accessories/hats-and-caps/winter-hats?ref=catnav-10855
-http://store.steampowered.com/search/?filter=topsellers
-https://www.walmart.com/cp/televisions-video/1060825
-http://www.ikea.com/us/en/catalog/categories/departments/bathroom/
-https://www.bestbuy.com/site/home-appliances/refrigerators/abcat0901000.c?id=abcat0901000
-https://intl.target.com/c/clothing/-/N-5xtd3
-'
-# https://www.creativebloq.com/web-design/examples-of-javascript-1233964
-URL_LIST='
-http://www.histography.io/
-http://www.filippobello.com/
-http://thestlbrowns.com/
-http://legworkstudio.com/
-http://codeconf.com/
-http://ibm.com/design
-http://www.masitupungato.com/
-http://khan.github.io/tota11y
-http://knowlupus.org/
-http://sbs.com.au/theboat
-http://run4tiger.com/
-http://debbiemillman.com/designmatters
-http://wrapgenius.me/
-http://thelocalpalate.com/
-http://mikekus.com/
-http://multeor.com/
-http://hereistoday.com/
-http://www.jacktorrancetrip.com/
-http://www.mapstd.com/
-http://www.adityaravishankar.com/projects/games/command-and-conquer
-http://www.peanutgalleryfilms.com/
-'
-# https://medium.com/@coderacademy/32-sites-built-with-reactjs-172e3a4bed81
-URL_LIST='
-https://www.adroll.com/product
-https://www.airbnb.com/s/homes?refinement_paths%5B%5D=%2Fhomes
-https://asana.com/product
-https://www.atlassian.com/software/jira
-https://www.cloudflare.com/cdn/
-https://www.dropbox.com/business
-http://www.bbc.com/
-http://bleacherreport.com/nba
-https://www.facebook.com/login/
-https://flipboard.com/
-https://imgur.com/new/time
-https://www.instagram.com/?hl=en
-https://www.kissmetrics.com/product/
-https://www.khanacademy.org/math/early-math/cc-early-math-counting-topic
-https://mattermark.com/discovery/
-https://www.netflix.com/
-https://www.okcupid.com/
-https://www.paypal.com/vn/webapps/mpp/pay-on-ebay
-https://www.periscope.tv/channel/featured-broadcasts
-https://podio.com/site/en/tour
-https://postmates.com/
-https://www.producthunt.com/topics/tech
-https://www.reddit.com/new/
-https://www.salesforce.com/ap/solutions/by-role/salesforce-for-sales/
-https://www.scribd.com/
-https://www.squarespace.com/templates
-https://www.tesla.com/models
-https://www.uber.com/en-US/fare-estimate/
-https://venmo.com/about/product/
-https://web.whatsapp.com/
-https://www.wolframalpha.com/examples/math/
-https://www.zendesk.com/omnichannel/
-'
+    npm install kaizhu256/electron-lite#alpha --electron-version="$vv"
+URL_LIST="
+https://kaizhu256.github.io/sql.js/GUI/deoptimize.index.html
+https://kaizhu256.github.io/swagger-ui/dist/index.html
+"
     for uu in $URL_LIST
     do
         for ii in 1 2 3 4 5 6 7 8 9 10
         do
-            (url="$uu" node_modules/.bin/electron lib.electron_onload_test.js 2>&1 | \
+            (url="$uu" node_modules/.bin/electron lib.electron_onload_test.sh 2>&1 | \
                 tee -a "$HOME/electron.log") &
             for ii in \
                  1  2  3  4  5  6  7  8  9 10 \
@@ -135,3 +57,127 @@ https://www.zendesk.com/omnichannel/
         done
     done
 done
+":" */
+
+
+
+":" //'
+;
+// <script>
+/* jslint-utility2 */
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 4,
+    maxlen: 100,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+(function () {
+    "use strict";
+    var local;
+    local = {};
+    // inject onload timer
+    if (typeof window === "object") {
+        // compensate for 1000 ms wait-offset after onload to take into account cpu-heavy renders
+        local.now = Date.now() - 100;
+        window.addEventListener("load", function () {
+            // wait 1000 ms for async loaders to finish
+            setTimeout(function () {
+                console.error("onLoadTime " + (Date.now() - local.now));
+            }, 100);
+        });
+        return;
+    }
+    /* validateLineSortedReset */
+    if (!process.versions.electron) {
+        return;
+    }
+    // npm install electron-lite
+    if (!require("fs").existsSync("node_modules/electron-lite") ||
+            process.env.npm_config_electron_version) {
+        require("child_process").spawnSync("mkdir", [
+            "-p",
+            "node_modules"
+        ], { stdio: ["ignore", 1, 2] });
+    }
+    // wait for electron to init
+    (process.versions.electron >= "0.35"
+        ? require("electron").app
+        : require("app")).once("ready", function () {
+        // init local
+        local = { frame: false, height: 768, width: 1024, x: 0, y: 0 };
+        // init browserWindow;
+        local.BrowserWindow = (process.versions.electron >= "0.35"
+            ? require("electron").BrowserWindow
+            : require("browser-window"));
+        local.browserWindow = new local.BrowserWindow(local);
+        // title
+        local.browserWindow.on("page-title-updated", function (event, title) {
+            if (event && title.indexOf("onLoadTime ") !== 0) {
+                return;
+            }
+            local.tmp = JSON.parse(JSON.stringify(process.versions));
+            local.tmp.arch = process.arch;
+            local.tmp.onLoadTime = title.split(" ")[1];
+            local.tmp.platform = process.platform;
+            local.tmp.timestamp = new Date().toISOString();
+            local.tmp.url = process.env.url;
+            local.result = {};
+            Object.keys(local.tmp).sort().forEach(function (key) {
+                local.result[key] = local.tmp[key];
+            });
+            console.log();
+            console.log(title + " - " + local.result.url);
+            console.log(JSON.stringify(local.result));
+            console.log();
+            require("fs").writeFileSync("/tmp/electron.done", new Date().toISOString());
+            process.exit(0);
+        });
+/* jslint-ignore-begin */
+require("fs").writeFileSync("/tmp/electron.webview.html", "\
+<style>\n\
+body {\n\
+  border: 1px solid black;\n\
+  margin: 0;\n\
+  padding: 0;\n\
+}\n\
+</style>\n\
+<webview\n\
+    id=\"webview1\"\n\
+    preload=\"" +  __filename + "\"\n\
+    src=\"" + process.env.url + "\"\n\
+    style=\"border: none;height: 100%;margin: 0;padding: 0;width: 100%;\"\n\
+>\n\
+</webview>\n\
+<script>\n\
+(function () {\n\
+    var local;\n\
+    local = {};\n\
+    local.webview1 = document.querySelector(\"#webview1\");\n\
+    local.webview1.addEventListener(\"console-message\", function (event) {\n\
+        if (event.message.indexOf(\"onLoadTime \") === 0) {\n\
+            console.log(event.message);\n\
+            document.title = event.message;\n\
+        }\n\
+    });\n\
+}());\n\
+<\/script>\n\
+");
+/* jslint-ignore-end */
+        /* validateLineSortedReset */
+        // open url
+        local.url = "file:///tmp/electron.webview.html";
+        (local.browserWindow.loadURL || local.browserWindow.loadUrl).bind(
+            local.browserWindow
+        )(local.url, {
+            userAgent: local.modeBrowserTest === "scrape" &&
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                "(KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36"
+        });
+    });
+}());
+// </script>
+":" //'

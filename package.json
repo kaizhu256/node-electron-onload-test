@@ -2,7 +2,7 @@
     "author": "kai zhu <kaizhu256@gmail.com>",
     "description": "the greatest app in the world!",
     "devDependencies": {
-        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "electron-lite": "github:kaizhu256/electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
     "engines": {
