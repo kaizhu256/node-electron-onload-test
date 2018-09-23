@@ -1,3 +1,4 @@
+window.data = [
 {"arch":"x64","ares":"1.10.0-DEV","atom-shell":"0.24.0","chrome":"41.0.2272.76","electron":"0.24.0","http_parser":"2.3.0","modules":"43","node":"1.6.3","onLoadTime":"2501","openssl":"1.0.1m","platform":"linux","timestamp":"2018-01-17T14:31:32.406Z","url":"https://www.google.com","uv":"1.4.2","v8":"4.1.0.21","zlib":"1.2.8"},
 {"arch":"x64","ares":"1.10.0-DEV","atom-shell":"0.24.0","chrome":"41.0.2272.76","electron":"0.24.0","http_parser":"2.3.0","modules":"43","node":"1.6.3","onLoadTime":"2514","openssl":"1.0.1m","platform":"linux","timestamp":"2018-01-17T14:31:36.427Z","url":"https://www.google.com","uv":"1.4.2","v8":"4.1.0.21","zlib":"1.2.8"},
 {"arch":"x64","ares":"1.10.0-DEV","atom-shell":"0.24.0","chrome":"41.0.2272.76","electron":"0.24.0","http_parser":"2.3.0","modules":"43","node":"1.6.3","onLoadTime":"2516","openssl":"1.0.1m","platform":"linux","timestamp":"2018-01-17T14:31:40.705Z","url":"https://www.google.com","uv":"1.4.2","v8":"4.1.0.21","zlib":"1.2.8"},
@@ -2061,3 +2062,5 @@
 {"arch":"x64","ares":"1.10.1-DEV","atom-shell":"1.7.1","chrome":"58.0.3029.110","electron":"1.7.1","http_parser":"2.7.0","modules":"54","node":"7.9.0","onLoadTime":"3447","openssl":"1.0.2k","platform":"linux","timestamp":"2018-01-17T18:43:26.788Z","url":"https://world.taobao.com","uv":"1.11.0","v8":"5.8.283.38","zlib":"1.2.11"},
 {"arch":"x64","ares":"1.10.1-DEV","atom-shell":"1.7.1","chrome":"58.0.3029.110","electron":"1.7.1","http_parser":"2.7.0","modules":"54","node":"7.9.0","onLoadTime":"3392","openssl":"1.0.2k","platform":"linux","timestamp":"2018-01-17T18:43:31.756Z","url":"https://world.taobao.com","uv":"1.11.0","v8":"5.8.283.38","zlib":"1.2.11"},
 {"arch":"x64","ares":"1.10.1-DEV","atom-shell":"1.7.1","chrome":"58.0.3029.110","electron":"1.7.1","http_parser":"2.7.0","modules":"54","node":"7.9.0","onLoadTime":"3247","openssl":"1.0.2k","platform":"linux","timestamp":"2018-01-17T18:43:36.620Z","url":"https://world.taobao.com","uv":"1.11.0","v8":"5.8.283.38","zlib":"1.2.11"},
+]
+

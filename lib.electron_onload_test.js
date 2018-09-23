@@ -81,7 +81,7 @@ done
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,
@@ -93,6 +93,7 @@ done
     local = {};
     // inject onload timer
     if (typeof window === 'object') {
+        // compensate for 1000 ms wait-offset after onload to take into account cpu-heavy renders
         local.now = Date.now() - 1000;
         window.addEventListener('load', function () {
             // wait 1000 ms for async loaders to finish

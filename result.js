@@ -4,6 +4,20 @@
     node: true
 */
 'use strict';
+var arr0, dict, mean, options, series, tmp, variance;
+
+// init header
+tmp = document.createElement('h4');
+tmp.style.background = '#ddf';
+tmp.style.textAlign = 'center';
+/* jslint-ignore-begin */
+tmp.innerHTML = '\
+you can reproduce this experiment with this script:<br>\n\
+<a href="https://github.com/kaizhu256/node-electron-onload-test/blob/gh-pages/lib.electron_onload_test.js">https://github.com/kaizhu256/node-electron-onload-test/blob/gh-pages/lib.electron_onload_test.js</a>\n\
+'
+/* jslint-ignore-end */
+document.body.appendChild(tmp);
+
 /*
 https://en.wikipedia.org/wiki/List_of_most_popular_websites
 https://www.google.com
@@ -17,7 +31,6 @@ https://www.reddit.com
 http://www.qq.com
 https://world.taobao.com
  */
-var arr0, dict, mean, options, series, tmp, variance;
 window['debug_inline'.replace('_i', 'I')] = function (arg) {
 /*
  * this function will both print the arg to stderr and return it
@@ -29,6 +42,7 @@ window['debug_inline'.replace('_i', 'I')] = function (arg) {
     // return arg for inspection
     return arg;
 };
+// plot against electron versions
 arr0 = [
     "0.24.0",
     "0.25.1",
@@ -53,12 +67,29 @@ arr0 = [
     "1.6.1",
     "1.7.1"
 ];
+// plot against v8 versions
+arr0 = [
+    "4.1.0.21",
+    "4.2.77.15",
+    "4.3.61.21",
+    "4.4.63.25",
+    "4.5.103.29",
+    "4.7.80.23",
+    "4.9.385.28",
+    "5.0.71.48",
+    "5.1.281.47",
+    "5.2.361.43",
+    "5.3.332.45",
+    "5.4.500.43",
+    "5.6.326.50",
+    "5.8.283.38"
+];
 dict = {};
 window.data.forEach(function (element) {
     dict[element.url] = dict[element.url] || [];
     dict[element.url].push({
         meta: element,
-        x: arr0.indexOf(element.electron),
+        x: arr0.indexOf(element.v8),
         y: Number(element.onLoadTime)
     });
 });
@@ -95,6 +126,7 @@ Object.keys(dict).sort().forEach(function (key, ii) {
             .map(function (element) {
                 return {
                     meta: element.meta,
+                    metaText: JSON.stringify(element.meta, null, 4).replace((/\n/g), '<br>\n'),
                     x: element.x + 0.25 + 0.05 * ii,
                     y: element.y
                 };
@@ -142,15 +174,19 @@ options = {
                 pointFormat: '<b>onload-time {point.y} ms</b><br>' +
                     'url {point.meta.url}<br>' +
                     'v8 v{point.meta.v8}<br>' +
-                    'electron v{point.meta.electron}<br>'
+                    'chrome v{point.meta.chrome}<br>' +
+                    'electron v{point.meta.electron}<br>' +
+                    'timestamp {point.meta.timestamp}<br>' +
+                    //!! '{point.metaText}<br>' +
+                    String()
             }
         }
     },
     subtitle: {
-        text: '(with outliers >= 2 standard-deviations removed)'
+        text: '(with outliers \u2265 2 \u03c3 removed)'
     },
     title: {
-        text: 'onload-time for popular websites vs v8/electron version'
+        text: 'onload-time for various websites vs v8/electron version'
     },
     xAxis: {
         gridLineWidth: 1,
@@ -192,11 +228,10 @@ series.forEach(function (element, ii) {
     window.Highcharts.chart('container' + ii, tmp);
 });
 
+// init footer
 // raw data
 tmp = document.createElement('pre');
 tmp.style.background = '#ddd';
-tmp.style.height = '512px';
 tmp.style.overflow = 'auto';
-tmp.style.width = '1024px';
-tmp.textContent = 'raw data:\n' + JSON.stringify(window.data).replace((/\},/g), '},\n');
+tmp.textContent = 'raw json-data:\n\n' + JSON.stringify(window.data).replace((/\},/g), '},\n');
 document.body.appendChild(tmp);
